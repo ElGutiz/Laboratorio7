@@ -49,7 +49,7 @@ const main_div_3 = document.createElement("div");
 				a_3_1.innerText = "gut19111@uvg.edu.gt";
 				p_helper_3.appendChild(a_3_1);
 			const a_3_2 = document.createElement("a");
-				a_3_2.href = "../Page1/0-HomePage.html";
+				a_3_2.href = "../dist/0-HomePage.html";
 				a_3_2.innerText = "    Pagina de Inicio";
 				p_helper_3.appendChild(a_3_2);
 		footer_main_3.appendChild(p_helper_3);

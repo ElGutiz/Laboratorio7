@@ -1,4 +1,5 @@
 import aeropuerto1 from "../Images/Aeropuerto.jpg";
+import airplanesound1 from "../#Sound/airplaneSound.mp3";
 import "../Page1/style_HomePage.scss";
 
 const main_div_1 = document.createElement("div");
@@ -22,7 +23,7 @@ const main_div_1 = document.createElement("div");
     main_div_1.appendChild(paragraph1);
 
     const audio1 = document.createElement("audio");
-    audio1.src = "../%23Sound/airplaneSound.mp3"
+    audio1.src = airplanesound1;
     audio1.controls = true;
     audio1.autoplay = true;
     main_div_1.appendChild(audio1);
@@ -36,7 +37,7 @@ const main_div_1 = document.createElement("div");
                 a_12.innerText = "gut19111@uvg.edu.gt";
                 p_helper.appendChild(a_12);
             const a_13 = document.createElement("a");
-                a_13.href = "../Page1/0-HomePage.html";
+                a_13.href = "../dist/0-HomePage.html";
                 a_13.innerText = "    Pagina de Inicio";
                 p_helper.appendChild(a_13);
         footer_main_1.appendChild(p_helper);

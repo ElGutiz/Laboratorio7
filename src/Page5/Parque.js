@@ -1,4 +1,6 @@
 import cambridge_park from  "../Images/cambridgePark.png";
+import palomas1 from "../#Sound/Palomas.mp3";
+
 import "../Page1/style_HomePage.scss";
 
 const main_div_4 = document.createElement("div");
@@ -22,7 +24,7 @@ const main_div_4 = document.createElement("div");
     main_div_4.appendChild(paragraph_4_1);
 
 	const audio4 = document.createElement("audio");
-    audio4.src = "../%23Sound/Palomas.mp3"
+    audio4.src = palomas1;
     audio4.controls = true;
     audio4.autoplay = true;
     main_div_4.appendChild(audio4);
@@ -35,7 +37,7 @@ const main_div_4 = document.createElement("div");
                 a_4_1.innerText = "gut19111@uvg.edu.gt";
                 p_helper_4.appendChild(a_4_1);
             const a_4_2 = document.createElement("a");
-                a_4_2.href = "../Page1/0-HomePage.html";
+                a_4_2.href = "../dist/0-HomePage.html";
                 a_4_2.innerText = "    Pagina de Inicio";
                 p_helper_4.appendChild(a_4_2);
         footer_main_4.appendChild(p_helper_4);

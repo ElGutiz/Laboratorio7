@@ -1,4 +1,6 @@
 import rugby_camp from "../Images/rugbyCamp.jpg";
+import crowd1 from "../#Sound/Crowd.mp3";
+
 import "../Page1/style_HomePage.scss";
 
 const main_div_5 = document.createElement("div");
@@ -22,7 +24,7 @@ const main_div_5 = document.createElement("div");
     main_div_5.appendChild(paragraph_5_1);
 
 	const audio5 = document.createElement("audio");
-    audio5.src = "../%23Sound/Crowd.mp3"
+    audio5.src = crowd1;
     audio5.controls = true;
     audio5.autoplay = true;
     main_div_5.appendChild(audio5);
@@ -35,7 +37,7 @@ const main_div_5 = document.createElement("div");
                 a_5_1.innerText = "gut19111@uvg.edu.gt";
                 p_helper_5.appendChild(a_5_1);
             const a_5_2 = document.createElement("a");
-                a_5_2.href = "../Page1/0-HomePage.html";
+                a_5_2.href = "../dist/0-HomePage.html";
                 a_5_2.innerText = "    Pagina de Inicio";
                 p_helper_5.appendChild(a_5_2);
         footer_main_5.appendChild(p_helper_5);

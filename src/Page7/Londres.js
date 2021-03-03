@@ -1,6 +1,7 @@
 import train_1 from "../Images/train1.jpg";
 import londres_bus1 from "../Images/london1.jpeg";
 import palace_1 from "../Images/palace1.jpeg";
+import trainSound from  "../#Sound/Train.mp3";
 
 const main_div_6 = document.createElement("div");
 const secondary_div_6_1 = document.createElement("div");
@@ -60,7 +61,7 @@ secondary_div_6_1.id = "palorad";
     main_div_6.appendChild(figure_6_3);
 
     const audio6 = document.createElement("audio");
-    audio6.src = "../%23Sound/Train.mp3"
+    audio6.src = trainSound;
     audio6.controls = true;
     audio6.autoplay = false;
     main_div_6.appendChild(audio6);
@@ -73,7 +74,7 @@ secondary_div_6_1.id = "palorad";
                 a_6_1.innerText = "gut19111@uvg.edu.gt";
                 p_helper_6.appendChild(a_6_1);
             const a_6_2 = document.createElement("a");
-                a_6_2.href = "../Page1/0-HomePage.html";
+                a_6_2.href = "../dist/0-HomePage.html";
                 a_6_2.innerText = "    Pagina de Inicio";
                 p_helper_6.appendChild(a_6_2);
         footer_main_6.appendChild(p_helper_6);

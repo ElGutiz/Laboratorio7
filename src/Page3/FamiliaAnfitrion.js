@@ -1,4 +1,6 @@
 import house2 from "../Images/Casa.jpg";
+import bus1 from "../#Sound/busSound.mp3";
+
 import "../Page1/style_HomePage.scss";
 
 const main_div_2 = document.createElement("div");
@@ -40,7 +42,7 @@ const main_div_2 = document.createElement("div");
     main_div_2.appendChild(ul_1);
 
     const audio2 = document.createElement("audio");
-    audio2.src = "../%23Sound/busSound.mp3"
+    audio2.src = bus1;
     audio2.controls = true;
     audio2.autoplay = true;
     main_div_2.appendChild(audio2);
@@ -53,7 +55,7 @@ const main_div_2 = document.createElement("div");
                 a_2_1.innerText = "gut19111@uvg.edu.gt";
                 p_helper_2.appendChild(a_2_1);
             const a_2_2 = document.createElement("a");
-                a_2_2.href = "../Page1/0-HomePage.html";
+                a_2_2.href = "../dist/0-HomePage.html";
                 a_2_2.innerText = "    Pagina de Inicio";
                 p_helper_2.appendChild(a_2_2);
         footer_main_2.appendChild(p_helper_2);

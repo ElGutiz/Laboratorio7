@@ -22,13 +22,53 @@ module.exports = {
   plugins: [new MiniCssExtractPlugin(), 
     new HtmlWebpackPlugin({
     template: "./src/Page1/0-HomePage.html",
-    filename: "0_HomePage.html",
-    chunks:[page_1]
+    filename: "0-HomePage.html",
+    chunks:["page_1"]
   }),
     new HtmlWebpackPlugin({
       template: "./src/Page2/1-LargoViaje.html",
-      filename: "1_LargoViaje.html",
-      chunks:[page_2]
+      filename: "1-LargoViaje.html",
+      chunks:["page_2"]
+  }),
+  new HtmlWebpackPlugin({
+    template: "./src/Page3/2-FamiliaAnfitrion.html",
+    filename: "2-FamiliaAnfitrion.html",
+    chunks:["page_3"]
+  }),
+  new HtmlWebpackPlugin({
+    template: "./src/Page4/3-PrimerDia.html",
+    filename: "3-PrimerDia.html",
+    chunks:["page_4"]
+  }),
+  new HtmlWebpackPlugin({
+    template: "./src/Page5/4-Parque.html",
+    filename: "4-Parque.html",
+    chunks:["page_5"]
+  }),
+  new HtmlWebpackPlugin({
+    template: "./src/Page6/5-Rugby.html",
+    filename: "5-Rugby.html",
+    chunks:["page_6"]
+  }),
+  new HtmlWebpackPlugin({
+    template: "./src/Page7/6-Londres1.html",
+    filename: "6-Londres1.html",
+    chunks:["page_7"]
+  }),
+  new HtmlWebpackPlugin({
+    template: "./src/Page8/7-Londres2.html",
+    filename: "7-Londres2.html",
+    chunks:["page_8"]
+  }),
+  new HtmlWebpackPlugin({
+    template: "./src/Page9/8-Oxford.html",
+    filename: "8-Oxford.html",
+    chunks:["page_9"]
+  }),
+  new HtmlWebpackPlugin({
+    template: "./src/Page10/9-Anecdota.html",
+    filename: "9-Anecdota.html",
+    chunks:["page_10"]
   }),
 ],
   module: {
@@ -46,7 +86,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|gif|mp3)$/i,
         use: [
           {
             loader: 'file-loader',

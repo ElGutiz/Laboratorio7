@@ -1,6 +1,7 @@
 import london2 from "../Images/7London.jpg";
 import museo1 from "../Images/7Museo.jpg";
 import mirador1 from "../Images/7Mirador.jpg";
+import trafficSound from "../#Sound/Traffic.mp3";
 
 const main_div_7 = document.createElement("div");
     const figure_7_1 = document.createElement("figure");
@@ -65,7 +66,7 @@ const main_div_7 = document.createElement("div");
     main_div_7.appendChild(paragraph_7_3);
 
     const audio7 = document.createElement("audio");
-    audio7.src = "../%23Sound/Traffic.mp3"
+    audio7.src = trafficSound;
     audio7.controls = true;
     audio7.autoplay = false;
     main_div_7.appendChild(audio7);
@@ -78,7 +79,7 @@ const main_div_7 = document.createElement("div");
                 a_7_1.innerText = "gut19111@uvg.edu.gt";
                 p_helper_7.appendChild(a_7_1);
             const a_7_2 = document.createElement("a");
-                a_7_2.href = "../Page1/0-HomePage.html";
+                a_7_2.href = "../dist/0-HomePage.html";
                 a_7_2.innerText = "    Pagina de Inicio";
                 p_helper_7.appendChild(a_7_2);
         footer_main_7.appendChild(p_helper_7);
