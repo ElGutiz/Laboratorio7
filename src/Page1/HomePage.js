@@ -1,13 +1,16 @@
+import "../Page1/style_HomePage.scss";
+import bahia1 from '../Images/Bahia.jpeg';
 
 const main_div = document.createElement("div");
     const figure1 = document.createElement("figure");
         const image1 = document.createElement("img");
-        image1.src = "../Images/Bahia.jpeg";
+        image1.src = bahia1;
         image1.alt = "Paisaje";
         figure1.appendChild(image1);
 
         const figcaption1 = document.createElement("figcaption");
         figcaption1.textContent = "Imagen tomada por mi en una bahia.";
+        figcaption1.id = "fig1";
         figure1.appendChild(figcaption1);
     main_div.appendChild(figure1);
     

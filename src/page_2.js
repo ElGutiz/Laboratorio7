@@ -1,0 +1,1 @@
+import './Page2/LargoViaje'
