@@ -25,7 +25,7 @@ const main_div = document.createElement("div");
     const ol_main = document.createElement("ol");
         const li_1 = document.createElement("li");
             const a_1 = document.createElement("a");
-            a_1.href = "../Page2/1-LargoViaje.html";
+            a_1.href = "../../dist/1-LargoViaje.html";
             a_1.innerText = "Esperar en aeropuerto y vuelo";
             li_1.appendChild(a_1);
         ol_main.appendChild(li_1);

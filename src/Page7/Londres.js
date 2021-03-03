@@ -3,6 +3,8 @@ import londres_bus1 from "../Images/london1.jpeg";
 import palace_1 from "../Images/palace1.jpeg";
 
 const main_div_6 = document.createElement("div");
+const secondary_div_6_1 = document.createElement("div");
+secondary_div_6_1.id = "palorad";
     const figure_6_1 = document.createElement("figure");
         const image_6_1 = document.createElement("img");
         image_6_1.src = train_1;
@@ -12,7 +14,8 @@ const main_div_6 = document.createElement("div");
         const figcaption_6_1 = document.createElement("figcaption");
         figcaption_6_1.textContent = "Tren de Cambridge";
         figure_6_1.appendChild(figcaption_6_1);
-    main_div_6.appendChild(figure_6_1);
+    secondary_div_6_1.appendChild(figure_6_1);
+    main_div_6.appendChild(secondary_div_6_1);
 
     const title_6_1 = document.createElement("h1");
     title_6_1.innerText = "Un viaje a Londres. Dia 1";

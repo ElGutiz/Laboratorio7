@@ -1,4 +1,5 @@
 import house2 from "../Images/Casa.jpg";
+import "../Page1/style_HomePage.scss";
 
 const main_div_2 = document.createElement("div");
     const figure3 = document.createElement("figure");

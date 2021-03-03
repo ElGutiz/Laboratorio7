@@ -1,4 +1,5 @@
 import embassy1 from "../Images/Embassy.png";
+import "../Page1/style_HomePage.scss";
 
 const main_div_3 = document.createElement("div");
 	const figure_3_1 = document.createElement("figure");

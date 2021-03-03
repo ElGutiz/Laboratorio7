@@ -1,4 +1,5 @@
 import aeropuerto1 from "../Images/Aeropuerto.jpg";
+import "../Page1/style_HomePage.scss";
 
 const main_div_1 = document.createElement("div");
     const figure2 = document.createElement("figure");

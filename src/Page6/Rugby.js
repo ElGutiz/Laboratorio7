@@ -1,4 +1,5 @@
 import rugby_camp from "../Images/rugbyCamp.jpg";
+import "../Page1/style_HomePage.scss";
 
 const main_div_5 = document.createElement("div");
 	const figure_5_1 = document.createElement("figure");

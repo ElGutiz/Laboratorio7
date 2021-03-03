@@ -1,4 +1,5 @@
 import cambridge_park from  "../Images/cambridgePark.png";
+import "../Page1/style_HomePage.scss";
 
 const main_div_4 = document.createElement("div");
 	const figure_4_1 = document.createElement("figure");
