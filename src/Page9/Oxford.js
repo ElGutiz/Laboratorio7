@@ -1,7 +1,9 @@
+import oxford1 from "../Images/OxfordPuente.jpg";
+
 const main_div_8 = document.createElement("div");
 	const figure_8_1 = document.createElement("figure");
 		const image_8_1 = document.createElement("img");
-		image_8_1.src = "../Images/OxfordPuente.jpg";
+		image_8_1.src = oxford1;
 		image_8_1.alt = "Oxford";
 		figure_8_1.appendChild(image_8_1);
 

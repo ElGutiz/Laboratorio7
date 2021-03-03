@@ -1,7 +1,9 @@
+import aeropuerto1 from "../Images/Aeropuerto.jpg";
+
 const main_div_1 = document.createElement("div");
     const figure2 = document.createElement("figure");
     const image2 = document.createElement("img");
-    image2.src = "../Images/Aeropuerto.jpg";
+    image2.src = aeropuerto1;
     image2.alt = "Aeropuerto";
     figure2.appendChild(image2);
 

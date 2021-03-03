@@ -1,7 +1,9 @@
+import house2 from "../Images/Casa.jpg";
+
 const main_div_2 = document.createElement("div");
     const figure3 = document.createElement("figure");
         const image3 = document.createElement("img");
-        image3.src = "../Images/Casa.jpg";
+        image3.src = house2;
         image3.alt = "House";
         figure3.appendChild(image3);
         

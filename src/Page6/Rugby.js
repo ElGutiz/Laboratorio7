@@ -1,7 +1,9 @@
+import rugby_camp from "../Images/rugbyCamp.jpg";
+
 const main_div_5 = document.createElement("div");
 	const figure_5_1 = document.createElement("figure");
 		const image_5_1 = document.createElement("img");
-		image_5_1.src = "../Images/rugbyCamp.jpg";
+		image_5_1.src = rugby_camp;
 		image_5_1.alt = "Camp";
 		figure_5_1.appendChild(image_5_1);
 
@@ -38,26 +40,3 @@ const main_div_5 = document.createElement("div");
         footer_main_5.appendChild(p_helper_5);
     main_div_5.appendChild(footer_main_5);
 document.getElementById("body_5").appendChild(main_div_5);
-
-{/* <figure>
-			<img src="https://d2j31icv6dlhz6.cloudfront.net/G/Wf6Upl78RrUKv9HNzHhl/cambridgeuni.jpg" alt="Rugby" width="950" height="534">
-			<figcaption>
-				Cancha de <i>Rugby</i> de Cambridge
-			</figcaption>
-		</figure>
-		<h1>Primer partido de <i>Rugby</i></h1>
-		<p>
-			Era de noche, ya veniamos de regreso del centro comercial y pues todavia eran las 6 PM entonces todavia unas horas para llegar a la casa. Entonces en el camino vimos una cancha donde se escuchaban jugadores gritando
-			y personas como dando apoyo entonces nos llamo la atencion asi que fuimos a ver. Llegamos a la entrada de la cancha y vimos que estaban jugando <i>Rugby</i>, un deporte que solo habia visto en TV pero nunca en la 
-			vida real. Las entradas tenian precio pero con el carnet que teniamos por parte de la asociacion podiamos entrar gratis. Fuimos primero a comprar unas tortillas de harina cerca de ahi y aprovechamos a comer en la 
-			cancha mientras mirabamos el partido. Nunca habia visto un partido tan violento de cerca pero valio la pena. 
-		</p>
-		<audio controls>
-			<source src="http://stw-uvg.site/labs/lab03/Gut19111/Sounds/Rugby.mp3" type="audio/mpeg">
-		</audio>
-		<footer>
-			<p>Author: Jose Gutierrez<br>
-			<a href="mailto:gut19111@uvg.edu.gt">gut19111@uvg.edu.gt</a><br>
-			<a href="../Page1/0-HomePage.html">Inicio</a>
-			</p>
-		</footer> */}

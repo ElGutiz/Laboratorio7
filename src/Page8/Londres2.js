@@ -1,7 +1,11 @@
+import london2 from "../Images/7London.jpg";
+import museo1 from "../Images/7Museo.jpg";
+import mirador1 from "../Images/7Mirador.jpg";
+
 const main_div_7 = document.createElement("div");
     const figure_7_1 = document.createElement("figure");
         const image_7_1 = document.createElement("img");
-        image_7_1.src = "../Images/7London.jpg";
+        image_7_1.src = london2;
         image_7_1.alt = "Londres";
         figure_7_1.appendChild(image_7_1);
 
@@ -28,7 +32,7 @@ const main_div_7 = document.createElement("div");
 
     const figure_7_2 = document.createElement("figure");
         const image_7_2 = document.createElement("img");
-        image_7_2.src = "../Images/7Museo.jpg";
+        image_7_2.src = museo1;
         image_7_2.alt = "MuseoArte";
         figure_7_2.appendChild(image_7_2);
 
@@ -47,7 +51,7 @@ const main_div_7 = document.createElement("div");
 
     const figure_7_3 = document.createElement("figure");
         const image_7_3 = document.createElement("img");
-        image_7_3.src = "../Images/7Mirador.jpg";
+        image_7_3.src = mirador1;
         image_7_3.alt = "Mirador";
         figure_7_3.appendChild(image_7_3);
 

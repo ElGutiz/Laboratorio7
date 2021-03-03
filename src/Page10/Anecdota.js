@@ -1,14 +1,17 @@
+import doll1 from "../Images/8Doll.jpg";
+import mc from "../Images/8Mac.jpg";
+
 const main_div_9 = document.createElement("div");
 	const figure_9_1 = document.createElement("figure");
 		const image_9_1 = document.createElement("img");
-		image_9_1.src = "../Images/8Doll.jpg";
+		image_9_1.src = doll1;
 		image_9_1.alt = "Doll";
 		figure_9_1.appendChild(image_9_1);
 	main_div_9.appendChild(figure_9_1);
 
 	const figure_9_2 = document.createElement("figure");
 		const image_9_2 = document.createElement("img");
-		image_9_2.src = "../Images/8Mac.jpg";
+		image_9_2.src = mc;
 		image_9_2.alt = "Mac";
 		figure_9_2.appendChild(image_9_2);
 

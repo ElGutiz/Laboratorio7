@@ -1,7 +1,9 @@
+import cambridge_park from  "../Images/cambridgePark.png";
+
 const main_div_4 = document.createElement("div");
 	const figure_4_1 = document.createElement("figure");
 		const image_4_1 = document.createElement("img");
-		image_4_1.src = "../Images/cambridgePark.png";
+		image_4_1.src = cambridge_park;
 		image_4_1.alt = "Park";
 		figure_4_1.appendChild(image_4_1);
 

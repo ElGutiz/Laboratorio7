@@ -1,7 +1,11 @@
+import train_1 from "../Images/train1.jpg";
+import londres_bus1 from "../Images/london1.jpeg";
+import palace_1 from "../Images/palace1.jpeg";
+
 const main_div_6 = document.createElement("div");
     const figure_6_1 = document.createElement("figure");
         const image_6_1 = document.createElement("img");
-        image_6_1.src = "../Images/train1.jpg";
+        image_6_1.src = train_1;
         image_6_1.alt = "Train";
         figure_6_1.appendChild(image_6_1);
 
@@ -24,7 +28,7 @@ const main_div_6 = document.createElement("div");
 
     const figure_6_2 = document.createElement("figure");
         const image_6_2 = document.createElement("img");
-        image_6_2.src = "../Images/london1.jpeg";
+        image_6_2.src = londres_bus1;
         image_6_2.alt = "Londres_Bus";
         figure_6_2.appendChild(image_6_2);
 
@@ -43,7 +47,7 @@ const main_div_6 = document.createElement("div");
 
     const figure_6_3 = document.createElement("figure");
         const image_6_3 = document.createElement("img");
-        image_6_3.src = "../Images/palace1.jpeg";
+        image_6_3.src = palace_1;
         image_6_3.alt = "Palace1";
         figure_6_3.appendChild(image_6_3);
 
