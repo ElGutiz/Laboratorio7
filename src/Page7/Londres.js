@@ -3,6 +3,8 @@ import londres_bus1 from "../Images/london1.jpeg";
 import palace_1 from "../Images/palace1.jpeg";
 import trainSound from  "../#Sound/Train.mp3";
 
+import "../Page7/style_LondresPage.scss";
+
 const main_div_6 = document.createElement("div");
 const secondary_div_6_1 = document.createElement("div");
 secondary_div_6_1.id = "palorad";

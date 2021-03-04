@@ -1,5 +1,7 @@
 import oxford1 from "../Images/OxfordPuente.jpg";
 
+import "../Page1/style_HomePage.scss";
+
 const main_div_8 = document.createElement("div");
 	const figure_8_1 = document.createElement("figure");
 		const image_8_1 = document.createElement("img");

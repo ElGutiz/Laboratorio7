@@ -3,6 +3,8 @@ import museo1 from "../Images/7Museo.jpg";
 import mirador1 from "../Images/7Mirador.jpg";
 import trafficSound from "../#Sound/Traffic.mp3";
 
+import "../Page7/style_LondresPage.scss";
+
 const main_div_7 = document.createElement("div");
     const figure_7_1 = document.createElement("figure");
         const image_7_1 = document.createElement("img");

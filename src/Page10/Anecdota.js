@@ -1,6 +1,8 @@
 import doll1 from "../Images/8Doll.jpg";
 import mc from "../Images/8Mac.jpg";
 
+import "../Page1/style_HomePage.scss";
+
 const main_div_9 = document.createElement("div");
 	const figure_9_1 = document.createElement("figure");
 		const image_9_1 = document.createElement("img");
