@@ -18,7 +18,8 @@
     "webpack": "^5.24.2"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "babel-run": "babel src -d babel_dist"
   },
   "repository": {
     "type": "git",
