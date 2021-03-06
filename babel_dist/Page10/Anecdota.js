@@ -1,16 +1,23 @@
-import doll1 from "../Images/8Doll.jpg";
-import mc from "../Images/8Mac.jpg";
-import "../Page1/style_HomePage.scss";
+"use strict";
+
+var _Doll = _interopRequireDefault(require("../Images/8Doll.jpg"));
+
+var _Mac = _interopRequireDefault(require("../Images/8Mac.jpg"));
+
+require("../Page1/style_HomePage.scss");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 const main_div_9 = document.createElement("div");
 const figure_9_1 = document.createElement("figure");
 const image_9_1 = document.createElement("img");
-image_9_1.src = doll1;
+image_9_1.src = _Doll.default;
 image_9_1.alt = "Doll";
 figure_9_1.appendChild(image_9_1);
 main_div_9.appendChild(figure_9_1);
 const figure_9_2 = document.createElement("figure");
 const image_9_2 = document.createElement("img");
-image_9_2.src = mc;
+image_9_2.src = _Mac.default;
 image_9_2.alt = "Mac";
 figure_9_2.appendChild(image_9_2);
 const figcaption_9_1 = document.createElement("figcaption");

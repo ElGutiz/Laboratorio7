@@ -1,9 +1,15 @@
-import embassy1 from "../Images/Embassy.png";
-import "../Page1/style_HomePage.scss";
+"use strict";
+
+var _Embassy = _interopRequireDefault(require("../Images/Embassy.png"));
+
+require("../Page1/style_HomePage.scss");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 const main_div_3 = document.createElement("div");
 const figure_3_1 = document.createElement("figure");
 const image_3_1 = document.createElement("img");
-image_3_1.src = embassy1;
+image_3_1.src = _Embassy.default;
 image_3_1.alt = "Embassy";
 figure_3_1.appendChild(image_3_1);
 const figcaption_3_1 = document.createElement("figcaption");

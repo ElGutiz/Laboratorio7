@@ -1,1 +1,3 @@
-import './Page10/Anecdota';
+"use strict";
+
+require("./Page10/Anecdota");

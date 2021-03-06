@@ -1,1 +1,3 @@
-import './Page5/Parque';
+"use strict";
+
+require("./Page5/Parque");

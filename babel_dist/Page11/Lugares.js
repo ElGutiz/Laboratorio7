@@ -1,3 +1,5 @@
+"use strict";
+
 const main_div_10 = document.createElement("div");
 document.getElementById("body_10").appendChild(main_div_10);
 {

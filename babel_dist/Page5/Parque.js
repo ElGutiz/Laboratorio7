@@ -1,10 +1,17 @@
-import cambridge_park from "../Images/cambridgePark.png";
-import palomas1 from "../#Sound/Palomas.mp3";
-import "../Page1/style_HomePage.scss";
+"use strict";
+
+var _cambridgePark = _interopRequireDefault(require("../Images/cambridgePark.png"));
+
+var _Palomas = _interopRequireDefault(require("../#Sound/Palomas.mp3"));
+
+require("../Page1/style_HomePage.scss");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 const main_div_4 = document.createElement("div");
 const figure_4_1 = document.createElement("figure");
 const image_4_1 = document.createElement("img");
-image_4_1.src = cambridge_park;
+image_4_1.src = _cambridgePark.default;
 image_4_1.alt = "Park";
 figure_4_1.appendChild(image_4_1);
 const figcaption_4_1 = document.createElement("figcaption");
@@ -18,7 +25,7 @@ const paragraph_4_1 = document.createElement("p");
 paragraph_4_1.innerText = "Con nuestra persona guia fuimos a un parque un poco lejos del colegio donde asistiamos. Era un clima raro, porque estaba fuerte el sol pero a su vez habia frio por el fuerte viento que habia. Con mi pareja llevabamos nuestra propia refaccion pero preferimos comprar comida, dado a que los emparedados no se miraban muy apetitodos. Lo que hicimos con ellos es que se lo dimos por pedasos a unas palomas que estaban cerca de un lugar verde pero por pedazos. Vimos uns gansos y patos coloridos pero no podiamos acercarnos mucho a ellos dado a que habia una cerca y una senal que decia \"prohibido pasar\".";
 main_div_4.appendChild(paragraph_4_1);
 const audio4 = document.createElement("audio");
-audio4.src = palomas1;
+audio4.src = _Palomas.default;
 audio4.controls = true;
 audio4.autoplay = true;
 main_div_4.appendChild(audio4);

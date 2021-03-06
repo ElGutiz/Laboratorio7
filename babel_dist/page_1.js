@@ -1,1 +1,3 @@
-import './Page1/HomePage';
+"use strict";
+
+require("./Page1/HomePage");

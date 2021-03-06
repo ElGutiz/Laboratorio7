@@ -1,1 +1,3 @@
-import './Page7/Londres';
+"use strict";
+
+require("./Page7/Londres");

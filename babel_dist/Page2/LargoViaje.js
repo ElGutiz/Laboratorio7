@@ -1,10 +1,17 @@
-import aeropuerto1 from "../Images/Aeropuerto.jpg";
-import airplanesound1 from "../#Sound/airplaneSound.mp3";
-import "../Page1/style_HomePage.scss";
+"use strict";
+
+var _Aeropuerto = _interopRequireDefault(require("../Images/Aeropuerto.jpg"));
+
+var _airplaneSound = _interopRequireDefault(require("../#Sound/airplaneSound.mp3"));
+
+require("../Page1/style_HomePage.scss");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 const main_div_1 = document.createElement("div");
 const figure2 = document.createElement("figure");
 const image2 = document.createElement("img");
-image2.src = aeropuerto1;
+image2.src = _Aeropuerto.default;
 image2.alt = "Aeropuerto";
 figure2.appendChild(image2);
 const figcaption2 = document.createElement("figcaption");
@@ -18,7 +25,7 @@ const paragraph1 = document.createElement("p");
 paragraph1.innerText = "Llegue al aeropuerto y me despedi de mis padres. Los iba a extranar un monton. Habia llegado un poco tarde, dado a que era el unico que estaban esperando. Ibamos primero a Colombia y despues llegariamos a Inglaterra, estando en vuelo 16 horas en total aproximadamente. Si fue un viaje muy agotador aparte del tiempo de vuelo, debiamos esperar en los aeropuertos como una dos o tres horas mas de espera para que llegara el avion. Pero la espera valio la pensa.";
 main_div_1.appendChild(paragraph1);
 const audio1 = document.createElement("audio");
-audio1.src = airplanesound1;
+audio1.src = _airplaneSound.default;
 audio1.controls = true;
 audio1.autoplay = true;
 main_div_1.appendChild(audio1);

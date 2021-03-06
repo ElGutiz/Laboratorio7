@@ -1,1 +1,3 @@
-import './Page9/Oxford';
+"use strict";
+
+require("./Page9/Oxford");

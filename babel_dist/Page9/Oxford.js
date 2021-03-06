@@ -1,9 +1,15 @@
-import oxford1 from "../Images/OxfordPuente.jpg";
-import "../Page1/style_HomePage.scss";
+"use strict";
+
+var _OxfordPuente = _interopRequireDefault(require("../Images/OxfordPuente.jpg"));
+
+require("../Page1/style_HomePage.scss");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 const main_div_8 = document.createElement("div");
 const figure_8_1 = document.createElement("figure");
 const image_8_1 = document.createElement("img");
-image_8_1.src = oxford1;
+image_8_1.src = _OxfordPuente.default;
 image_8_1.alt = "Oxford";
 figure_8_1.appendChild(image_8_1);
 const figcaption_8_1 = document.createElement("figcaption");

@@ -1,10 +1,17 @@
-import rugby_camp from "../Images/rugbyCamp.jpg";
-import crowd1 from "../#Sound/Crowd.mp3";
-import "../Page1/style_HomePage.scss";
+"use strict";
+
+var _rugbyCamp = _interopRequireDefault(require("../Images/rugbyCamp.jpg"));
+
+var _Crowd = _interopRequireDefault(require("../#Sound/Crowd.mp3"));
+
+require("../Page1/style_HomePage.scss");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 const main_div_5 = document.createElement("div");
 const figure_5_1 = document.createElement("figure");
 const image_5_1 = document.createElement("img");
-image_5_1.src = rugby_camp;
+image_5_1.src = _rugbyCamp.default;
 image_5_1.alt = "Camp";
 figure_5_1.appendChild(image_5_1);
 const figcaption_5_1 = document.createElement("figcaption");
@@ -18,7 +25,7 @@ const paragraph_5_1 = document.createElement("p");
 paragraph_5_1.innerText = "Era de noche, ya veniamos de regreso del centro comercial y pues todavia eran las 6 PM entonces todavia unas horas para llegar a la casa. Entonces en el camino vimos una cancha donde se escuchaban jugadores gritando y personas como dando apoyo entonces nos llamo la atencion asi que fuimos a ver. Llegamos a la entrada de la cancha y vimos que estaban jugando <i>Rugby</i>, un deporte que solo habia visto en TV pero nunca en la vida real. Las entradas tenian precio pero con el carnet que teniamos por parte de la asociacion podiamos entrar gratis. Fuimos primero a comprar unas tortillas de harina cerca de ahi y aprovechamos a comer en la cancha mientras mirabamos el partido. Nunca habia visto un partido tan violento de cerca pero valio la pena.";
 main_div_5.appendChild(paragraph_5_1);
 const audio5 = document.createElement("audio");
-audio5.src = crowd1;
+audio5.src = _Crowd.default;
 audio5.controls = true;
 audio5.autoplay = true;
 main_div_5.appendChild(audio5);

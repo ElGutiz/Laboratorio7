@@ -1,14 +1,23 @@
-import train_1 from "../Images/train1.jpg";
-import londres_bus1 from "../Images/london1.jpeg";
-import palace_1 from "../Images/palace1.jpeg";
-import trainSound from "../#Sound/Train.mp3";
-import "../Page7/style_LondresPage.scss";
+"use strict";
+
+var _train = _interopRequireDefault(require("../Images/train1.jpg"));
+
+var _london = _interopRequireDefault(require("../Images/london1.jpeg"));
+
+var _palace = _interopRequireDefault(require("../Images/palace1.jpeg"));
+
+var _Train = _interopRequireDefault(require("../#Sound/Train.mp3"));
+
+require("../Page7/style_LondresPage.scss");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 const main_div_6 = document.createElement("div");
 const secondary_div_6_1 = document.createElement("div");
 secondary_div_6_1.id = "palorad";
 const figure_6_1 = document.createElement("figure");
 const image_6_1 = document.createElement("img");
-image_6_1.src = train_1;
+image_6_1.src = _train.default;
 image_6_1.alt = "Train";
 figure_6_1.appendChild(image_6_1);
 const figcaption_6_1 = document.createElement("figcaption");
@@ -27,7 +36,7 @@ paragraph_6_1.innerText = "Teniamos planeado en viajar en el primer fin de seman
 main_div_6.appendChild(paragraph_6_1);
 const figure_6_2 = document.createElement("figure");
 const image_6_2 = document.createElement("img");
-image_6_2.src = londres_bus1;
+image_6_2.src = _london.default;
 image_6_2.alt = "Londres_Bus";
 figure_6_2.appendChild(image_6_2);
 const figcaption_6_2 = document.createElement("figcaption");
@@ -42,7 +51,7 @@ paragraph_6_2.innerText = "Llegamos y como esperabamos, era un lugar lleno de tu
 main_div_6.appendChild(paragraph_6_2);
 const figure_6_3 = document.createElement("figure");
 const image_6_3 = document.createElement("img");
-image_6_3.src = palace_1;
+image_6_3.src = _palace.default;
 image_6_3.alt = "Palace1";
 figure_6_3.appendChild(image_6_3);
 const figcaption_6_3 = document.createElement("figcaption");
@@ -50,7 +59,7 @@ figcaption_6_3.textContent = "Palacio de Buckingham, Londres";
 figure_6_3.appendChild(figcaption_6_3);
 main_div_6.appendChild(figure_6_3);
 const audio6 = document.createElement("audio");
-audio6.src = trainSound;
+audio6.src = _Train.default;
 audio6.controls = true;
 audio6.autoplay = false;
 main_div_6.appendChild(audio6);

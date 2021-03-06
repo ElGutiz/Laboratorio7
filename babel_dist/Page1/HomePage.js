@@ -1,9 +1,15 @@
-import "../Page1/style_HomePage.scss";
-import bahia1 from '../Images/Bahia.jpeg';
+"use strict";
+
+require("../Page1/style_HomePage.scss");
+
+var _Bahia = _interopRequireDefault(require("../Images/Bahia.jpeg"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 const main_div = document.createElement("div");
 const figure1 = document.createElement("figure");
 const image1 = document.createElement("img");
-image1.src = bahia1;
+image1.src = _Bahia.default;
 image1.alt = "Paisaje";
 figure1.appendChild(image1);
 const figcaption1 = document.createElement("figcaption");

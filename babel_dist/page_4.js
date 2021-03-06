@@ -1,1 +1,3 @@
-import './Page4/PrimerDia';
+"use strict";
+
+require("./Page4/PrimerDia");

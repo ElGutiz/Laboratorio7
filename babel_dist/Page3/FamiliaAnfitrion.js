@@ -1,10 +1,17 @@
-import house2 from "../Images/Casa.jpg";
-import bus1 from "../#Sound/busSound.mp3";
-import "../Page1/style_HomePage.scss";
+"use strict";
+
+var _Casa = _interopRequireDefault(require("../Images/Casa.jpg"));
+
+var _busSound = _interopRequireDefault(require("../#Sound/busSound.mp3"));
+
+require("../Page1/style_HomePage.scss");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 const main_div_2 = document.createElement("div");
 const figure3 = document.createElement("figure");
 const image3 = document.createElement("img");
-image3.src = house2;
+image3.src = _Casa.default;
 image3.alt = "House";
 figure3.appendChild(image3);
 const figcaption3 = document.createElement("figcaption");
@@ -32,7 +39,7 @@ li_2_3.innerText = "Que teniamos ir nosotros pos nuestra cuenta al colegio de la
 ul_1.appendChild(li_2_3);
 main_div_2.appendChild(ul_1);
 const audio2 = document.createElement("audio");
-audio2.src = bus1;
+audio2.src = _busSound.default;
 audio2.controls = true;
 audio2.autoplay = true;
 main_div_2.appendChild(audio2);

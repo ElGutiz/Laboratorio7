@@ -1,1 +1,3 @@
-import './Page6/Rugby';
+"use strict";
+
+require("./Page6/Rugby");
